@@ -1,0 +1,11 @@
+CREATE TABLE Abogado (
+UUID_Abogado VARCHAR(100),
+Nombre_Abogado VARCHAR2(32),
+Edad_Abogado INT,
+Peso_Abogado Varchar(32),
+Correo_Abogado VARCHAR2(32))
+;
+
+
+select * from Abogado 
+drop table Abogado
